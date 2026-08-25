@@ -6,6 +6,6 @@
 # \\ - insert slash
 # \" -insert double quotation
 
-House = "\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t\t\t\t*\t\t\t\t*\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t*\t\t\t\t\t\t\t\t*\t\t\t\t\t\t\n\t\t\t\t*\t\t\t\t\t\t\t\t\t\t\t\t*\t\t\t\t\n\t\t\t*\t*\t\t\t\tHi, My Name is Gian Carlo M. Lontoc\t\t\t\t*\t*\t\t\t\n\t\t\t*\t*\t\t\t\t\t  FROM BSIT 1-B\t\t\t\t\t\t*\t*\t\t\t\n\t\t\t*\t*\t\t\t\t\t\t\t\t\t\t\t\t*\t*\t\t\t\n\t\t\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t\t\t\n\t\t\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t*\t\t\t"
+Gio = "\t\t\t\t\t\t\t\t\t\t*\n\t\t\t\t\t\t\t\t\t*\t\t*\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t*\t\t\t\t*\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t*\t\t\t\t\t\t*\t\t\t\t\t\t\t\n\t\t\t\t\t\t*\t*\tHi, My Name is Gian Carlo M. Lontoc\t*\t*\t\t\t\t\t\t\n\t\t\t\t\t\t*\t*\t\t  FROM BSIT 1-B\t\t\t*\t*\t\t\t\t\t\t\n\t\t\t\t\t\t*\t*\t\t\t\t\t\t*\t*\t\t\t\t\t\t\n\t\t\t\t\t\t*\t*\t*\t*\t*\t*\t*\t*\t*\t\t\t\t\t\t\n\t\t\t\t\t\t*\t*\t*\t*\t*\t*\t*\t*\t*\t\t\t\t\t\t"
 
-print(House)
+print(Gio)
