@@ -23,6 +23,7 @@ moneyVal = moneyVal - five*5
 one = moneyVal//1
 moneyVal = moneyVal - one*1
 
+print("MONEY DEPOSIT BREAKDOWN")
 
 print("bills count ₱1,000 :", oneThousand)
 print("bills count ₱500   :", fiveHundred)
