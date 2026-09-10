@@ -29,6 +29,6 @@ elif weight > 30 or dist > 1000:
 	total_cost = bCost + 30
 else: total_cost = bCost
 
-print("       SHIPPING SUMMARY\n""Sender        :", sender, "\n""Item          :", type, "\n""Fragile       :", frag, "\n""Weight        :", weight, "kg\n""Distance      :", dist, "km\n""Express       :", fast, "\n""International :", intl, "\n""Total Cost    : $", format(total_cost, ".2f"))
+print("       FREIGHT SUMMARY\n""Sender        :", sender, "\n""Item          :", type, "\n""Fragile       :", frag, "\n""Weight        :", weight, "kg\n""Distance      :", dist, "km\n""Express       :", fast, "\n""International :", intl, "\n""Total Cost    : $", format(total_cost, ".2f"))
 
 
