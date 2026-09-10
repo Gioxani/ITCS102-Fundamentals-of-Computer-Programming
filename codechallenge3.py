@@ -11,11 +11,11 @@
 
 sender = input("Sender name: ")
 type = input("Type of item: ")
-frag = input("Fragile Yes/No: ").lower() == "yes"
+frag = input("Fragile Yes/No: ").lower() == "yes", "ye","y", "oo"
 weight = float(input("Weight: "))
 dist = float(input("Distance: "))
-fast = input("Express Yes/No: ").lower() == "yes"
-intl = input("International Yes/No: ").lower() == "yes"
+fast = input("Express Yes/No: ").lower() == "yes", "ye", "y", "oo"
+intl = input("International Yes/No: ").lower() == "yes", "ye", "y", "oo"
 
 bCost = weight*2.50 + dist*0.15
 
