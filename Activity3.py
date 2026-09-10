@@ -24,10 +24,11 @@ isCool = True
 isRich = False
 print("age", "birthYear", "fingers", "toes", "weight", "height", "temp", "angle", "name", "name", "ring", "pen", "vehicle", "isTall", "isAttractive", "isCool", "isRich")
 
-      
+"""      
 print(f"my name is {name} and i am {age} years old i have {fingers} fingers and {toes} toes i am born at year {birthYear} my weight is {weight}kg my height is {height}cm the temperature today is {temp}degree celsius and the sunrays is pointing at angle {angle} i own a ring that is {ring} and my vehicle is {vehicle}.")
 
 print(f"Am I tall? {'Yes' if isTall else 'No'}")
 print(f"Am I attractive? {'Yes' if isAttractive else 'No'}")
 print(f"Am I cool? {'Yes' if isCool else 'No'}")
 print(f"Am I rich? {'Yes' if isRich else 'No'}")
+"""
