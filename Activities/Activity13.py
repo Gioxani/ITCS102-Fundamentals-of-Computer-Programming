@@ -1,3 +1,4 @@
+
 age = int(input("Age: "))
 is_employed = bool(input("Employed? yes/no: ").lower() == "yes")
 
@@ -7,6 +8,7 @@ annual_income = float(input("Annual income: "))
 has_collateral = bool(input("Has collateral? yes/no: ").lower() == "yes")
 
 if age >= 21 and is_employed:
+    print("Eligible for credit")
 
     if credit_score >= 750:
         interest_rate = 5.0
