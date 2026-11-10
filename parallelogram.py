@@ -1,5 +1,5 @@
 
-size = int(input("Enter the size of the box: "))
+size = int(input("Enter the size of the parallelogram: "))
 
 for x in range(size):
     print(" " * (size - x - 1), end="")
