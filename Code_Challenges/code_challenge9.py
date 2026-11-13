@@ -5,14 +5,15 @@ years = int(input("How many years: "))
 months = years * 12
 prin = loan / months
 bal = loan
-print(f"Months\t\tMonthly Payment\t\tInterest\t\tPrincipal\t\tRemaining Loan")
+print(f"Months\t|   Monthly Payment\t|\tInterest\t|\tPrincipal\t|\tRemaining Loan")
+print("---------------------------------------------------------------------------------------------------------")
 for mon in range(1, months + 1):
   interest = bal * 0.0025
   payment = prin + interest
   bal = bal - prin
   if bal < 0.005:
     bal = 0
-  print(f"{mon}\t\t{round(payment, 2)}\t\t\t{round(interest, 2)}\t\t\t{round(prin, 2)}\t\t\t{round(bal, 2)}")
+  print(f"{mon}\t|\t{round(payment, 2)}\t\t|\t{round(interest, 2)}\t\t|\t{round(prin, 2)}\t\t|\t{round(bal, 2)}")
 #task 2
 r = int(input("input size of triangle: "))
 for x in range(r - 1):
