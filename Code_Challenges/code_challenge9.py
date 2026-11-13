@@ -7,7 +7,7 @@ prin = loan / months
 bal = loan
 print(f"Months\t\tMonthly Payment\t\tInterest\t\tPrincipal\t\tRemaining Loan")
 for mon in range(1, months + 1):
-  interest = bal * 0.03 / 12
+  interest = bal * 0.00256 / 12
   payment = prin + interest
   bal = bal - prin
   if bal < 0.005:
