@@ -19,17 +19,17 @@ r = int(input("input size of triangle: "))
 for x in range(r - 1):
   for y in range(2 * r - 1):
     if y == r - 1 - x or y == r - 1 + x:
-      print("*", end= " ")
+      print("*", end= "")
     else:
-      print(" ", end= " ")
+      print("", end= " ")
   print()
-print("* " * (2 * r - 1))
+print("*" * (2 * r - 1))
 #task 3
 r = int(input("Input size of Z:"))
 for x in range(r):
   for y in range(r):
     if x == 0 or x == r -1 or y == r -1 -x:
-      print("*", end= " ")
+      print("*", end= "")
     else:
-      print(" ", end= " ")
+      print("", end= " ")
   print()
