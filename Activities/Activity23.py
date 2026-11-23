@@ -20,3 +20,16 @@ def nips(snig):
 
 g = int(input("number: "))
 print("output: ", nips(g))
+
+#box
+size = int(input("Size of box: "))
+def square (box):
+    for x in range(size):
+        for y in range(size):
+            if x == 0 or y == 0 or x == size - 1 or y == size - 1:
+                print(y, end=" ")
+            else:
+                print(" ", end=" ")
+        print()
+    return
+print(square(size))
