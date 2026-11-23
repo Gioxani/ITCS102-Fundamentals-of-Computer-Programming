@@ -10,7 +10,7 @@ print("output", my_fact(8))
 print("output", my_fact(7))
 
 #snig program
-def nigs(snig):
+def nips(snig):
 
     fact = 1
 
@@ -19,4 +19,4 @@ def nigs(snig):
     return fact
 
 g = int(input("number: "))
-print("output: ", nigs(g))
+print("output: ", nips(g))
